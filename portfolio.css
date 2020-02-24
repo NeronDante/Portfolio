@@ -5,21 +5,16 @@
 }
 
 body {
-	background: #22204f;
+	background: #0026FF;
 	font-family: 'Roboto', sans-serif;
 	position: relative;
 	text-align: center;
 	color: #fff;
 }
-/* media */
 
 
 
-.all {
-	background: #522e98;
-	 height: 100%; 
- 
-}
+
 .hello {
 	background: url(images/meb.jpg) no-repeat top;
 	position: relative; 
@@ -49,7 +44,9 @@ body {
 		text-align: left;
 	}
 .gallery {
-	background: #522e98;
+	background: #3AA1DC;
+	display: block;
+	z-index: 3;
 }
 .gallery img {
 	height: 280px;
@@ -62,7 +59,7 @@ body {
 	height: 180px;
 	padding: 20px;
 	text-align: left;
-	background: #22204f;
+	background: #0056FF;
 	cursor:  url(images/god.png) 2 2, auto;
 }
 .inf p {
@@ -77,20 +74,10 @@ body {
 #close {
 	cursor: pointer;
 }
-/* .farm:hover {
-	background: #fff;
-	position: fixed;
-	height: 0;
-	width: 0;
-	z-index: 1;
-	 -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-} */
+
 
 .button {
-    background-color: #7f4ab2;
+    background-color: #0056FF;
     border: 2px solid #ff7b52;    
     color: #fff;
     padding: 10px;
@@ -118,10 +105,10 @@ body {
 
 footer {
 	position:relative;
-	background: #22204f;
+	background: #0056FF;
 	height: 80px;
 	padding-top: 2%;
-	color: #504bb2;
+	color: #FFFFFF;
 }
 
 @media screen and (max-width: 930px) {
