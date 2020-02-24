@@ -1,0 +1,141 @@
+/*portfolio*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background: #0026FF;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	text-align: center;
+	color: #fff;
+}
+
+
+
+
+.hello {
+	background: url(images/meb.jpg) no-repeat top;
+	position: relative; 
+	height: 450px;
+}
+	.hello_in {
+		
+			display: grid;	
+			grid-template-columns: 1fr 2fr 3fr 3fr 2fr 1fr; 
+			grid-template-rows: 1fr;
+			grid-gap: 25px;
+			height: 250px;
+		position: relative;
+		top: 25%;
+		
+		}
+	.hello_in img{				
+		height: 200px;
+		width: 150px;
+		border: solid #fff 2px;
+	}
+	.hello_in p {
+		text-shadow: 1px 1px 5px #000, 0 0 1em #000;
+		padding-top: 15px;
+		line-height: 30px;
+		font-size: 1.1em;
+		text-align: left;
+	}
+.gallery {
+	background: #3AA1DC;
+	display: block;
+	z-index: 3;
+}
+.gallery img {
+	height: 280px;
+	width: 430px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: 20px;
+	margin-top: 70px;
+}
+.inf {
+	height: 180px;
+	padding: 20px;
+	text-align: left;
+	background: #0056FF;
+	cursor:  url(images/god.png) 2 2, auto;
+}
+.inf p {
+	position: relative;
+}
+
+
+.rout {
+	height: 100px;
+	padding-top: 4%;	
+}
+#close {
+	cursor: pointer;
+}
+
+
+.button {
+    background-color: #0056FF;
+    border: 2px solid #ff7b52;    
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 12px 11px;
+   
+    width: 95px;
+    height: 20px;
+}
+.animated2 {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated3 {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+footer {
+	position:relative;
+	background: #0056FF;
+	height: 80px;
+	padding-top: 2%;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 930px) {
+
+	.inf {
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	.inf {
+		height: 320px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	.inf {
+		height: 440px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+
+	.inf {
+		height: 840px;
+		
+	}
+}
